@@ -1,0 +1,51 @@
+{
+  "_from": "@sveltejs/adapter-vercel@next",
+  "_id": "@sveltejs/adapter-vercel@1.0.0-next.3",
+  "_inBundle": false,
+  "_integrity": "sha512-QaHcaxZJNhRT2AdD05nFex5ENUxYTv5oGN5OLFUdiJU3e0aWzc78jHmnlEAZPqToDGtcJfiAeqDvdSRFEc+g8w==",
+  "_location": "/@sveltejs/adapter-vercel",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@sveltejs/adapter-vercel@next",
+    "name": "@sveltejs/adapter-vercel",
+    "escapedName": "@sveltejs%2fadapter-vercel",
+    "scope": "@sveltejs",
+    "rawSpec": "next",
+    "saveSpec": null,
+    "fetchSpec": "next"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@sveltejs/adapter-vercel/-/adapter-vercel-1.0.0-next.3.tgz",
+  "_shasum": "c41072f037b1b15e44675898b3b79f6b10c2cb70",
+  "_spec": "@sveltejs/adapter-vercel@next",
+  "_where": "/Users/wiese/Dev/sveltekit-tailwind-example",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@sveltejs/app-utils": "1.0.0-next.2"
+  },
+  "deprecated": false,
+  "description": "Adapter for Svelte apps that creates a Vercel app, using a function for dynamic server rendering.",
+  "devDependencies": {
+    "rollup": "^2.38.3",
+    "sirv": "^1.0.11"
+  },
+  "files": [
+    "files"
+  ],
+  "main": "index.js",
+  "name": "@sveltejs/adapter-vercel",
+  "scripts": {
+    "build": "rollup -c",
+    "check-format": "prettier --check . --config ../../.prettierrc --ignore-path .gitignore",
+    "dev": "rollup -cw",
+    "format": "prettier --write . --config ../../.prettierrc --ignore-path .gitignore",
+    "lint": "eslint --ignore-path .gitignore \"**/*.{ts,js,svelte}\" && npm run check-format",
+    "prepublishOnly": "npm run build"
+  },
+  "type": "module",
+  "version": "1.0.0-next.3"
+}
