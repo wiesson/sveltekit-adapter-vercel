@@ -1,5 +1,5 @@
-import { parse, URLSearchParams } from 'url';
-import * as app from './server/app.js';
+import { parse, URLSearchParams } from "url";
+import * as app from "./server/app.js";
 
 function read_only_form_data() {
 	/** @type {Map<string, string[]>} */
@@ -265,5 +265,5 @@ var index = async (req, res) => {
 	return res.writeHead(404).end();
 };
 
-export default index;
+export default index
 //# sourceMappingURL=index.js.map
