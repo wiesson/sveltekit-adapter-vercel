@@ -3,7 +3,8 @@
   "version": "1.0.0-next.6",
   "main": "index.js",
   "files": [
-    "files"
+    "files",
+    "app-utils"
   ],
   "scripts": {
     "dev": "rollup -cw",
