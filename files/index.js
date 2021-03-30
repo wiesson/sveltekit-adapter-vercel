@@ -1,4 +1,4 @@
-module.exports = async (res, req) => {
+module.exports = async (...args) => {
 	const { default: app } = await import('./entry.mjs');
-	await app(res, req);
+	await app(...args);
 };
